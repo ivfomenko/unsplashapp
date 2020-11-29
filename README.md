@@ -52,7 +52,7 @@ This folder contains next types:
 - Dependencies Holder/Injector. For more info about [DI](https://en.wikipedia.org/wiki/Dependency_injection "DI")
 
 ##### Flow
-All Views and their support files should be places in this folder. Each View must have their own folder, which contains all it's support files, like Builder, ViewModel, Router and others. This folder must have the same name as placed into it ViewController.
+All Views and their support files should be places in this folder. Each View must have their own folder, which contains all it's support files, like Builder, ViewModel, Router and others. This folder must have the same name as placed into it's View.
 
 ##### Network
 Folder contains 3 main sub-folders:
@@ -61,9 +61,9 @@ Folder contains 3 main sub-folders:
 2. Network Models
 	- contain JSON models for decode/encode them for API.
 	- all models must be grouped by their type and logic mission (for send and response).
-	- you can use entities from this folder for ViewControllers.
+	- you can use entities from this folder for View.
 3. Network Service
-	- contain main Abstract network service for Moya Framework, inpered by [Moya](https://github.com/Moya/Moya "Moya")
+	- contain main Abstract network service inpered by [Moya](https://github.com/Moya/Moya "Moya")
 
 #### State Container
 Foler contains 2 main sub-folders:
@@ -78,7 +78,7 @@ Folder contains 3 main sub-folders:
 	- contain all database Providers and their Protocolos, grouped by their type.
 2. Realm Models
 	- contain Realm(database) models for communicate only with database
-	- Realm models mustn't communicate with ViewController, use special DomainConvertibleType type for 'decorate' datamodels into UI-friendly models, for more details go [here](https://en.wikipedia.org/wiki/Decorator_pattern "here")
+	- Realm models mustn't communicate with View, use special DomainConvertibleType type for 'decorate' datamodels into UI-friendly models, for more details go [here](https://en.wikipedia.org/wiki/Decorator_pattern "here")
 3. Database Service
 	- contain main Abstract database service for Realm Database, for more details go [here](https://realm.io "here")
 	also contain base models and serivces for database (MigrationService and Error's models)
