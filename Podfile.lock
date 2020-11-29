@@ -1,0 +1,46 @@
+PODS:
+  - Combine-Realm (2.0.1):
+    - RealmSwift (~> 10.1)
+  - Kingfisher/Core (5.15.7)
+  - Kingfisher/SwiftUI (5.15.7):
+    - Kingfisher/Core
+  - Realm (10.1.4):
+    - Realm/Headers (= 10.1.4)
+  - Realm/Headers (10.1.4)
+  - RealmSwift (10.1.4):
+    - Realm (= 10.1.4)
+  - Swinject (2.7.1)
+
+DEPENDENCIES:
+  - Combine-Realm (from `https://github.com/ivfomenko/CombineRealm.git`, branch `update_dependency`)
+  - Kingfisher/SwiftUI
+  - RealmSwift
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - Realm
+    - RealmSwift
+    - Swinject
+
+EXTERNAL SOURCES:
+  Combine-Realm:
+    :branch: update_dependency
+    :git: https://github.com/ivfomenko/CombineRealm.git
+
+CHECKOUT OPTIONS:
+  Combine-Realm:
+    :commit: 465ca3c8d761ca2a2a1c017fc0950ec323dfabc2
+    :git: https://github.com/ivfomenko/CombineRealm.git
+
+SPEC CHECKSUMS:
+  Combine-Realm: a793eb6c6adcaed05ac8697e1467f80ab2cdfbb3
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  Realm: 80f4fb2971ccb9adc27a47d0955ae8e533a7030b
+  RealmSwift: 0e566ca714edb377bba8ea0811eafcea0b93734e
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+
+PODFILE CHECKSUM: d65f8720489f9db9a5cf64c9906271b8b7bc04b0
+
+COCOAPODS: 1.10.0
